@@ -46,13 +46,44 @@ One PowerShell file, no install, no drivers.
 
 ## Quick start
 
-1. Download the repository (Code -> Download ZIP) and extract it.
-2. Double-click `Fizz-Lighting.cmd`. (If Windows blocks the files, right-click each one ->
-   Properties -> Unblock.)
-3. The window connects to the keyboard and shows its current effect.
+Fizz Lighting can be launched directly from GitHub or run locally. Both methods use the same PowerShell application.
 
-The keymap tab opens a `Cfg.ini` (the file the Redragon software uses). Put a copy named
-`Cfg.ini` next to `fizz-gui.ps1` and it loads automatically.
+### Option 1: Run directly from PowerShell (recommended)
+
+No manual download or extraction required.
+
+1. Connect your Redragon K617 Fizz keyboard.
+2. Open **Windows PowerShell**.
+3. Copy and execute:
+
+```powershell
+irm https://raw.githubusercontent.com/irm-synth/fizz-lighting/refs/heads/main/fizz-gui.ps1 | iex
+```
+
+PowerShell retrieves the latest `fizz-gui.ps1` from the repository's `main` branch and executes it in the current PowerShell session.
+
+**Important:**
+- This method requires an internet connection.
+- It executes the downloaded script directly.
+- Review the script before executing it if you want to inspect what will run.
+- Because it uses the `main` branch, the version can change whenever the repository is updated.
+
+### Option 2: Run locally
+
+1. Download the latest **Release**.
+2. Extract the archive.
+3. Double-click `Fizz-Lighting.cmd`.
+4. The application connects to the keyboard and displays its current lighting settings.
+
+The local launcher starts PowerShell with the required STA mode.
+
+### Keymap configuration
+
+The keymap editor can open an existing Redragon `Cfg.ini` using the **Open Cfg.ini...** button.
+
+For local execution, you can also place a copy named `Cfg.ini` next to `fizz-gui.ps1` for automatic loading.
+
+When running directly from GitHub, use **Open Cfg.ini...** to select the configuration manually.
 
 ## What it writes to your keyboard
 
