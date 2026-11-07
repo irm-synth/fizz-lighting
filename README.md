@@ -127,10 +127,10 @@ AI-written code can contain mistakes, so it was checked in several ways:
 |---|---|---|
 | Apply an effect | yes | yes |
 | Save painted keys | yes | yes |
-| Custom color on every color-capable effect | yes (placement rule) | _update after testing_ |
-| Sync from keyboard | yes (fake device) | _update after testing_ |
-| Auto-apply | yes (fake device) | _update after testing_ |
-| Keymap editor / saving a Cfg.ini | yes | _update after testing_ |
+| Custom color on every color-capable effect | yes (placement rule) | yes |
+| Sync from keyboard | yes (fake device) | yes |
+| Auto-apply | yes (fake device) | yes |
+| Keymap editor / saving a Cfg.ini | yes | yes |
 
 ## Credits
 
