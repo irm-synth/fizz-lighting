@@ -1,0 +1,6 @@
+# the app is shipped with CRLF line endings; keep them
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.cs text eol=lf
+*.py text eol=lf
+*.md text eol=lf
