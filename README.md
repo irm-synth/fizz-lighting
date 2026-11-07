@@ -3,10 +3,19 @@
 Lighting and keymap tool for the **Redragon K617 Fizz** keyboard (stock firmware).
 One PowerShell file, no install, no drivers.
 
-<!-- Add screenshots here, e.g.:
+## Screenshots
+
+### Effects
 ![Effects tab](docs/screenshots/effects.png)
-![Keymap tab](docs/screenshots/keymap.png)
--->
+
+### Per-key paint
+![Per-key paint tab](docs/screenshots/per-key-paint.png)
+
+### Keymap editor — Base layer
+![Keymap base layer](docs/screenshots/keymap-base.png)
+
+### Keymap editor — Fn layer
+![Keymap Fn layer](docs/screenshots/keymap-fn.png)
 
 > **Made entirely by AI.** This project was designed and written by Claude (Anthropic's AI
 > assistant) in a long chat session with a human who supplied the hardware, direction and testing.
